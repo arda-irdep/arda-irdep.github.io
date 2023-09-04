@@ -1,0 +1,248 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+    background-color: #1d1e20;
+    color: white;
+}
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+}
+
+.navbar nav ul{
+    padding: 0;
+    margin: 1.3rem;
+}
+
+.navbar nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top:1.2rem;
+}
+
+.navbar nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar nav ul li a:visited{
+    color: white;
+}
+
+.navbar nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#projects_nav{
+    padding-right: 1rem;
+    margin-left: 0.8rem;
+}
+
+#linktree_nav{
+    margin-left: 0.8rem;
+}
+
+/*Section one*/
+
+#one{
+    height: 58vh;
+}
+
+#one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    margin-bottom: 15%;
+    font-family:-apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif
+}
+
+#full_name{
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+#description{
+    margin: 0;
+    font-size: 1.60rem;
+    color: #9a9b9c;
+}
+
+.svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+    margin-top: 15px;
+}
+
+.svg a{
+    width: 60px;
+}
+
+.svg #github:hover{
+    cursor: pointer;
+    
+}
+
+.svg #linkedin:hover{
+    cursor: pointer;
+    
+}
+
+.svg #github{
+    margin-right:10px;
+    fill:  #f5f5f5;
+}
+
+.svg #linkedin{
+    margin-right:10px;
+    fill: #0072b1;
+}
+
+/*Section two*/
+
+#two{
+    text-align: center;
+    height: 80vh;
+    font-family:-apple-system, BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif
+}
+
+#two #Project_title{
+    padding-top: 1.5rem;
+    font-size: 3rem;
+}
+
+.projects_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.projects_box #p1{
+    overflow: scroll;
+    background: url(images/pass_gen_ss.png);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30%;
+    height: 30rem;
+    border: 0.8rem #5e81ac solid;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projects_box #pass_gen_name{
+    display: none;
+}
+
+.projects_box #p1:hover #pass_gen_name{
+    display: block;
+}
+
+.projects_box #p1:hover #pass{
+    display: none;
+}
+
+.projects_box #p1 #pass_gen_name{
+    margin-bottom: 2.2rem;
+    font-size: 2.5rem;
+}
+
+.projects_box #p1 #pass{
+    margin-bottom: 2rem;
+    font-size: 2.7rem;
+}
+
+.projects_box #p1 p{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.projects_box #p1 ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.projects_box #p1 #Project_github{
+    height: 8vh;
+}
+
+.projects_box #p2{
+    overflow: scroll;
+    background-image: url(images/linktree_clone_ss.png);
+    background-size: 60rem;
+    background-position: 50rem 30rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+    width: 30%;
+    height: 30rem;
+    border: 0.8rem #5e81ac solid;
+    border-radius: 1rem;
+}
+
+.projects_box #p2 #Project_name{
+    font-size: 2.5rem;
+}
+
+.projects_box #p2 p{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.projects_box #p2 ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.projects_box #p2 #Project_github{
+    height: 8vh;
+}
+
+.projects_box #p3{
+    overflow:scroll;
+    background-image: url(images/portfolio_website_ss.png);
+    background-position: 40rem 30rem;
+    display: inline-block;
+    width: 30%;
+    height: 30rem;
+    border: 0.8rem #5e81ac solid;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projects_box #p3 #Project_name{
+    font-size: 2.5rem;
+}
+
+.projects_box #p3 p{
+    font-size: 1.4rem;
+}
+
+.projects_box #p3 ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.projects_box #p3 #Project_github{
+    height: 8vh;
+}

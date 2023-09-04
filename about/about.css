@@ -1,0 +1,86 @@
+*{
+    background-color: #1d1e20;
+    color: white;
+}
+
+body{
+    margin: 6.25rem;
+    margin-top: 5.5rem;
+}
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0;
+    font-size: 1.3rem;
+}
+
+.navbar nav ul{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.navbar nav ul li{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar nav ul li a:visited{
+    color: white;
+}
+
+.navbar nav ul li a:hover{
+    text-decoration: underline;
+}
+
+#fullname{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.links{
+    overflow:hidden;
+    font-size: 1.375rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.25rem;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+#top-hr{
+    width: 80%;
+}
+
+.summary{
+    font-size: 1.6rem;
+}
+
+.education{
+    font-size: 1.6rem;
+}
+
+.skills{
+    font-size: 1.6rem;
+}
+
+.languages{
+    font-size: 1.6rem;
+}
+
+.certifications{
+    font-size: 1.6rem;
+}
