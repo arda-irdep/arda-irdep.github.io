@@ -84,3 +84,20 @@ body{
 .certifications{
     font-size: 1.6rem;
 }
+
+
+@media all and (max-width: 1400px){
+
+    .links{
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+#top-hr{
+    width: 30%;
+}
+
+}
