@@ -3,7 +3,6 @@ html{
 }
 
 body{
-    
     background-color: #1d1e20;
     color: white;
 }
@@ -180,7 +179,7 @@ body{
 }
 
 .projects_box #p1 #Project_github{
-    height: 8vh;
+    height: 60px;
 }
 
 .projects_box #p2{
@@ -214,7 +213,7 @@ body{
 }
 
 .projects_box #p2 #Project_github{
-    height: 8vh;
+    height: 60px;
 }
 
 .projects_box #p3{
@@ -244,5 +243,54 @@ body{
 }
 
 .projects_box #p3 #Project_github{
-    height: 8vh;
+    height: 60px;
+}
+
+@media all and (max-width: 1400px) {
+    .projects_box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+    .projects_box #p1{
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+    .projects_box #p2{
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 1400px){
+
+    .projects_box #p3{
+        width: 40%;
+    }
+}
+
+@media all and (max-width: 1200px){
+
+    .projects_box #p3{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1200px){
+
+    .projects_box #p2{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1200px){
+
+    .projects_box #p1{
+        width: 50%;
+    }
 }
