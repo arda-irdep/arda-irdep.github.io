@@ -126,6 +126,7 @@ body{
 .projects_box{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -137,7 +138,7 @@ body{
     background-size: 50rem;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 30rem;
     border: 0.8rem #5e81ac solid;
     border-radius: 1rem;
@@ -191,7 +192,7 @@ body{
     margin-right: 2rem;
     margin-bottom: 2rem;
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 30rem;
     border: 0.8rem #5e81ac solid;
     border-radius: 1rem;
@@ -221,7 +222,7 @@ body{
     background-image: url(images/portfolio_website_ss.png);
     background-position: 40rem 30rem;
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 30rem;
     border: 0.8rem #5e81ac solid;
     border-radius: 1rem;
@@ -245,6 +246,36 @@ body{
 .projects_box #p3 #Project_github{
     height: 60px;
 }
+
+.projects_box #p4{
+    overflow:scroll;
+    background-image: url(images/recipe_site_ss.png);
+    display: inline-block;
+    width: 40%;
+    height: 30rem;
+    border: 0.8rem #5e81ac solid;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projects_box #p4 #Project_name{
+    font-size: 2.5rem;
+}
+
+.projects_box #p4 p{
+    font-size: 1.4rem;
+}
+
+.projects_box #p4 ul li{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.projects_box #p4 #Project_github{
+    height: 60px;
+}
+
 
 @media all and (max-width: 1400px) {
     .projects_box{
@@ -274,9 +305,16 @@ body{
     }
 }
 
+@media all and (max-width: 1400px){
+
+    .projects_box #p4{
+        width: 40%;
+    }
+}
+
 @media all and (max-width: 1200px){
 
-    .projects_box #p3{
+    .projects_box #p1{
         width: 50%;
     }
 }
@@ -290,7 +328,14 @@ body{
 
 @media all and (max-width: 1200px){
 
-    .projects_box #p1{
+    .projects_box #p3{
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 1200px){
+
+    .projects_box #p4{
         width: 50%;
     }
 }
