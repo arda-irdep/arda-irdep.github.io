@@ -1,7 +1,7 @@
 # Arda Írdep - Portfolio
 
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://arda-irdep.github.io)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ✨ **Nord-themed responsive portfolio** showcasing my projects, skills, and professional experience as a Management Information Systems student.
 
@@ -26,8 +26,8 @@
 3. Password Generator
 4. Recipe Site
 
+## License
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
 ## Hosting
 This portfolio is automatically deployed via [GitHub Pages](https://pages.github.com/).
-
-## License
-GNU GENERAL PUBLIC LICENSE - see [LICENSE](LICENSE) file
