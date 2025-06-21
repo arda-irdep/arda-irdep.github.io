@@ -30,4 +30,4 @@
 This portfolio is automatically deployed via [GitHub Pages](https://pages.github.com/).
 
 ## License
-MIT License - see [LICENSE](LICENSE) file
+GNU GENERAL PUBLIC LICENSE - see [LICENSE](LICENSE) file
